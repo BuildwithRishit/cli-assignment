@@ -1,14 +1,24 @@
 1. id
-This command showed the identity details of the currently logged in user.
+   This command displayed the identity information of the currently logged in user.
+   It showed details such as the user ID (UID), group ID (GID), and the groups the user belongs to.
+   It is commonly used to verify the current user's account and permissions.
 
 2. echo $SHELL
-This command showed the shell that is currently in use.
+   This command displayed the shell currently being used by the user.
+   It printed the value of the `SHELL` environment variable.
+   This helps identify the default command-line shell, such as Bash or Zsh.
 
 3. pwd
-This command showed the path of the current working directory.
+   This command displayed the full path of the current working directory.
+   It showed the exact location in the file system where commands were being executed.
+   It is useful for confirming the current directory before performing file operations.
 
 4. ls -la
-This command listed all files and directories, including hidden files, along with their detailed information.
+   This command listed all files and directories in the current location.
+   It included hidden files and displayed detailed information such as permissions, ownership, size, and modification date.
+   It is commonly used to inspect the contents and attributes of a directory.
 
 5. ping -c 4 google.com
-This command sent four network packets to google.com to verify internet connectivity and test network communication.
+   This command sent four network packets to `google.com`.
+   It checked whether the system could communicate with the remote server over the network.
+   It was used to verify internet connectivity and measure basic network responsiveness.
