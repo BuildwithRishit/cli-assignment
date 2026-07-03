@@ -1,0 +1,19 @@
+# Storage Health Assessment Report
+
+**1. Storage Devices Detected**
+The `diskutil list` command displayed the available storage devices, partitions, and their corresponding disk identifiers.
+
+**2. Mounted File Systems**
+The `df -h` command displayed all mounted file systems, including their total capacity, used space, available space, and usage percentage.
+
+**3. Disk Space Usage**
+The `du -sh` command provided a summary of the disk space occupied by the home directory.
+
+**4. Inode Usage**
+The `df -i` command showed the inode allocation and utilization for the mounted file systems.
+
+**5. Overall Storage Status**
+The storage devices and file systems were functioning correctly and were accessible without any apparent issues.
+
+**6. Recommendations**
+Periodically remove unused files, back up or archive older data, and keep track of both disk space and inode utilization to maintain healthy storage performance.

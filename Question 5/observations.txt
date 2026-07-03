@@ -1,0 +1,14 @@
+1. diskutil list
+The `diskutil list` command displayed the storage devices, partitions, and disk identifiers available on the system.
+
+2. df -h
+The `df -h` command showed the mounted file systems and their current disk space usage in a readable format.
+
+3. du -sh
+The `du -sh` command calculated and displayed the total storage occupied by the home directory.
+
+4. df -i
+The `df -i` command reported inode utilization for the mounted file systems.
+
+5. Storage Assessment
+These storage-related commands were used to examine available disk space and monitor inode usage across the system.

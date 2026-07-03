@@ -1,0 +1,14 @@
+1. mkdir
+The `mkdir` command was used to create the project workspace and its associated directories.
+
+2. ls -ld
+The `ls -ld` command displayed the directory's permissions along with its owner and group information.
+
+3. chmod 700
+The `chmod` command modified the directory permissions so that only the owner could access it.
+
+4. umask
+The `umask` command showed the default permission mask applied when creating new files and directories.
+
+5. Ownership
+The ownership information confirmed that the workspace belonged to the current user and the user's group.

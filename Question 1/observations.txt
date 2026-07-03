@@ -1,0 +1,14 @@
+1. id
+This command showed the identity details of the currently logged in user.
+
+2. echo $SHELL
+This command showed the shell that is currently in use.
+
+3. pwd
+This command showed the path of the current working directory.
+
+4. ls -la
+This command listed all files and directories, including hidden files, along with their detailed information.
+
+5. ping -c 4 google.com
+This command sent four network packets to google.com to verify internet connectivity and test network communication.

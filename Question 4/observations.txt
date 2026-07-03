@@ -1,0 +1,14 @@
+1. lsof
+The `lsof` command listed the files that were currently open and identified the processes using them.
+
+2. File Descriptors
+The `/proc/self/fd` directory displayed the standard file descriptors, including 0 for input, 1 for output, and 2 for error.
+
+3. Output Redirection
+The `>` operator redirected the standard output of a command into a file.
+
+4. Error Redirection
+The `2>` operator redirected the standard error output into a separate file.
+
+5. Resource Limits
+The `ulimit` command displayed the current resource limits configured by the operating system.

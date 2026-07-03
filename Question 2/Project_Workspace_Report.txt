@@ -1,0 +1,31 @@
+Secure Project Workspace Report
+
+1. Directory Structure Created
+
+A folder named `ProjectWorkspace` was created with two subfolders:
+- Documents
+- Reports
+
+2. Permissions Before Modification
+
+The directory initially had the default permissions assigned automatically by the operating system when it was created.
+
+3. Permissions After Modification
+
+The permissions were updated using the `chmod 700 ProjectWorkspace` command.
+
+Owner: Read, Write, Execute
+Group: No Access
+Others: No Access
+
+4. Ownership Details
+
+The workspace is owned by the current user and belongs to the current user's group.
+
+5. Umask Value Used
+
+Record the value displayed by the `umask` command here.
+
+6. Security Purpose
+
+Setting the permissions to `700` ensures that only the owner can view, modify, or access the contents of the workspace.

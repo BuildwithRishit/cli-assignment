@@ -1,0 +1,21 @@
+File Access and I/O Investigation Report
+
+1. Open Files
+
+The `lsof` command was executed to list the files that were currently open along with the processes accessing them.
+
+2. File Descriptors
+
+The `/proc/self/fd` directory displayed the file descriptors associated with the current process. File descriptor 0 represents standard input, 1 represents standard output, and 2 represents standard error.
+
+3. Output and Error Redirection
+
+The `>` operator was used to write standard output to `output.txt`, while the `2>` operator redirected standard error messages to `error.txt`.
+
+4. Resource Limits
+
+The `ulimit -a` command displayed the operating system's resource limits, including those related to files, memory, and processes.
+
+5. Linux I/O
+
+Linux manages input and output operations through file descriptors. Redirection allows the output or error streams to be written to files instead of being displayed in the terminal.

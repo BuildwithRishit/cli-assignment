@@ -1,0 +1,14 @@
+1. File Creation
+A file called `original.txt` was created to perform the link analysis.
+
+2. Hard Link
+The hard link used the same inode number as the original file, indicating that both referred to the same file data.
+
+3. Symbolic Link
+The symbolic link stored a reference to the location of the original file.
+
+4. Metadata
+The `stat` command was used to retrieve file details, including the inode number, permissions, ownership, and timestamps.
+
+5. File Deletion Test
+After `original.txt` was removed, the hard link continued to function, whereas the symbolic link no longer worked because its target file was missing.

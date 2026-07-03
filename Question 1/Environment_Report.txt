@@ -1,0 +1,16 @@
+Environment Verification Report
+
+1. User Identity
+The `id` command was executed to retrieve information about the current user and the groups associated with the account.
+
+2. Active Shell
+The `echo $SHELL` command was used to identify the shell currently running in the terminal.
+
+3. Current Directory
+The `pwd` command displayed the location of the directory in which the terminal session was currently operating.
+
+4. Directory Listing
+The `ls -la` command listed all files and directories, including hidden items, along with their detailed information.
+
+5. Network Verification
+The `ping` command was used to confirm that the system had an active network connection by communicating with a remote server.
